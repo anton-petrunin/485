@@ -2,6 +2,7 @@
 %\usepackage{lectures}
 \usepackage{xr}
 \usepackage{ulem}
+\usepackage{amsmath}
 \externaldocument{all-lectures}
 
 \begin{document}
@@ -123,9 +124,25 @@ Assume that $G$ has no triangles and
 for any 4 vertices $x,y,v,w$ in $G$.
 Show that $G$ is a tree.
 
+\end{document}
+
 \ 
 
-\end{document}
+\noindent %\sout
+{13.} %\textit{(solved)}
+Assume a graph $G$ is decomposed into two subgraphs $H_1$ and $H_2$.
+Show that 
+\[\chi (G)\le \chi(H_1)\cdot \chi(H_2).\]
+Given two positive integers $m$ and $n$ construct a graph $G$ with a decomposition into two subgraphs $H_1$ and $H_2$ such that
+\[\chi(H_1)=m, 
+\quad 
+\chi(H_2)=n
+\quad\text{and}\quad 
+\chi(G)=m\cdot n.\]
+
+\ 
+
+
 
 \noindent \sout{13.} %\textit{(solved)}
 Suppose $p=r(m,n)$ is the Ramsey number for $m$ and $n$%;
@@ -167,11 +184,6 @@ its chromatic polynomial $\chi(G,k)$ equals to $k\cdot(k-1)^{p-1}$.
 
 \ 
 
-\noindent {11.} %\textit{(solved)} 
-Let $M$ be a connected planar map and $G$ its dual.
-Show that $M$ and $G$ have the same number of spanning trees.
-
-\ 
 
 \noindent {12.} %\textit{(solved)}
 Let $M$ be a maximal planar map.
