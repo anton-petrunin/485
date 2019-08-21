@@ -2,6 +2,7 @@
 %\usepackage{lectures}
 \usepackage{xr}
 \usepackage{ulem}
+\usepackage{amsmath}
 \externaldocument{all-lectures}
 
 \begin{document}
@@ -16,20 +17,13 @@
 
 \ 
 
-\noindent {0.} Find a mistake or misprint in the ``Extra pearls''.
+\noindent {0.} Find a mistake or misprint in ``Extra pearls''.
+(The score depends on the type of mistake.)
 
 
 \ 
 
 \noindent \sout{1.} \textit{(solved)}
-Assume that the sequence $d_1,\dots, d_p$ is graphic,
-$d_i\ge 1$ for each $i$ and 
-\[d_1+\dots+d_p\ge 2\cdot(p-1).\]
-Show that there is a connected graph $G$ with the degree sequence $d_1,\dots, d_p$.
-
-\ 
-
-\noindent \sout{2.} %\textit{(solved)}
 Assume $d_1,\dots, d_p$ is a sequence of integers in a nonincreasing order.
 Show that it is multigraphic if and only if $d_p\ge0$, the sum $d_1+\dots+ d_p$ is even and 
 \[d_1\le d_2+\dots+d_p.\]
@@ -37,48 +31,31 @@ Show that it is multigraphic if and only if $d_p\ge0$, the sum $d_1+\dots+ d_p$ 
 
 \ 
 
-\noindent \sout{3.} \textit{(solved)} 
+\noindent \sout{2.} \textit{(solved)}
+Assume that the sequence $d_1,\dots, d_p$ is graphic,
+$d_i\ge 1$ for each $i$ and 
+\[d_1+\dots+d_p\ge 2\cdot(p-1).\]
+Show that there is a connected graph $G$ with the degree sequence $d_1,\dots, d_p$.
+
+
+\ 
+
+\noindent \sout
+{3.} \textit{(solved)} 
 Show that in any connected graph $G$ there is a vertex $v$ such that $G-v$ is connected.
 
 \ 
 
-\noindent \sout{4.} %\textit{(solved)}
-Let $G$ be a critical graph and $\chi(G)=k+1$.
-Show after removing any $k-1$ edges from $G$  
-the obtained graph remains connected. 
 
-\ 
-
-\noindent \sout{5.} %\textit{(solved)}
-Assume both sequences $d_1,\dots, d_p$
- and $d_1-1,\dots, d_p-1$ are graphic.
-Show that there is a graph with a 1-factor and with the degree sequence $d_1,\dots, d_p$.
-
-\ 
-
-\noindent \sout{6.} \textit{(solved)} %!!!it is in the book
-Show that any $4$-regular graph has a $2$-factor.
-
-\ 
-
-\noindent \sout{7.} %\textit{(solved)}
-Show that any edge of cubic graph lies in an even number of Hamiltonian cycles.
-
-\ 
-
-\noindent \sout{8.} \textit{(solved)} 
+\noindent \sout
+{4.} \textit{(solved)} 
 Let $G$ be a  connected graph.
 Show that any two paths of maximum length in $G$ have a common vertex.
 
 \ 
 
-\noindent \sout{9.} \textit{(solved)} 
-Assume that the edges of a complete graph are colored in two colors.
-Show that there is a Hamiltonian cycle which either monochromatic or consists of two monochromatic paths.
-
-\ 
-
-\noindent \sout{10.} %\textit{(solved)} 
+\noindent %\sout
+{5.} %\textit{(solved)} 
 Assume two trees $R$ and $S$ 
 have the vertices $r_1,\dots,r_n$ and $s_1,\dots,s_n$ correspondingly.
 Assume that $R-r_i$ is isomorphic to $S-s_i$ for each $i$.
@@ -86,15 +63,57 @@ Show that $R$ is isomorphic to $S$.
 
 \ 
 
-\noindent \sout{11.}  %\textit{(solved)} 
-Assume that $G$ is $3$-regular connected graph such that 
+\noindent \sout
+{6.} \textit{(solved)}
+Let $G$ be a critical graph and $\chi(G)=k+1$.
+Show after removing any $k-1$ edges from $G$  
+the obtained graph remains connected. 
+
+
+\ 
+
+\noindent %\sout
+{7.} %\textit{(solved)}
+Assume both sequences $d_1,\dots, d_p$
+ and $d_1-1,\dots, d_p-1$ are graphic.
+Show that there is a graph with a 1-factor and with the degree sequence $d_1,\dots, d_p$.
+
+\ 
+
+
+\noindent \sout
+{8.} \textit{(solved)} %!!!it is in the book
+Show that any $4$-regular graph has a $2$-factor.
+
+\ 
+
+
+\noindent %\sout
+{9.} %\textit{(solved)}
+Show that any edge of cubic graph lies in an even number of Hamiltonian cycles.
+
+
+\ 
+
+\noindent \sout
+{10.} \textit{(solved)} 
+Assume that the edges of a complete graph are colored in two colors.
+Show that there is a Hamiltonian cycle which either monochromatic or consists of two monochromatic paths.
+
+\ 
+
+\noindent %\sout
+{11.}  %\textit{(solved)} 
+Assume that $G$ is a $3$-regular connected graph such that 
 for any two vertices $v,w$ of $G$ there is an isomorphism
 $G\to G$ which sends $v$ to $w$.
 Prove that $G$ remains connected after removing any $2$ edges.
 
 \ 
 
-\noindent \sout{12.} %\textit{(solved)}
+
+\noindent %\sout
+{12.} %\textit{(solved)}
 Let $G$ be a connected graph.
 Given any two vertices $v,w$ in $G$, denote by $d(v,w)$ the length of a shortest path containing $v$ to $w$. 
 
@@ -105,7 +124,14 @@ Show that $G$ is a tree.
 
 \ 
 
-\noindent \sout{13.} %\textit{(solved)}
+\noindent %\sout
+{13.} %\textit{(solved)}
+Understand the proof of Vizing's theorem (see the references for Theorem 2.2.2 in ``Pearls'' or find a proof elsewhere).
+
+\ 
+
+\noindent %\sout
+{14.} %\textit{(solved)}
 Suppose $p=r(m,n)$ is the Ramsey number for $m$ and $n$%;
 %that is $p$ is the minimal integer such that any edge-coloring of the
 %complete graph with $K_p$ using red and blue must contain a red $K_m$ or a blue $K_n$
@@ -117,50 +143,53 @@ $K_m$ and no blue $K_n$.
 
 \ 
 
-\noindent \sout{14.} \textit{(solved)}  Solve 2.13 from ``Extra pearls''.
+\noindent \sout{15.}\textit{(solved)} Show that a graph $G$ with $p$ vertexes is a tree if and only if
+its chromatic polynomial is $k\cdot(k-1)^{p-1}$.
 
 \ 
 
-\noindent \sout{15.} Let $T$ be a spanning tree in a graph $G$ with weighted edges.
+\noindent {16.} Let $T$ be a spanning tree in a graph $G$ with weighted edges.
 Show that $T$ has minimal total weight if and only if the weight of any edge $(a,b)$ in $G$ is at least as large as the weight of any edge on the path from $a$ to $b$ in $T$. 
 
 \ 
 
-\noindent \sout{16.} In a group of people, for some fixed $s$ and any $k$,
+\noindent {17.} In a group of people, for some fixed $s$ and any $k$,
 any $k$ girls like at least $k-s$ boys in total.
 Show that then all but $s$ girls may get married on the boys they like.
 
+\ 
+
+
+\noindent {18.} %\textit{(solved)}
+Let $M$ be a maximal planar map.
+Assume the vertexes of $M$ are colored in 3 colors.
+Show that the number of the regions that get all three colors is even.
 
 \ 
 
-\noindent \sout{17.} %\textit{(solved)} 
-Let $M$ be a connected planar map and $G$ be its dual.
+\noindent \sout{19.} \textit{(solved)} 
+Let $M$ be a planar map and $G$ be its dual.
 Show that $M$ and $G$ have the same number of spanning trees.
-
-
-\ 
-
-\noindent {18.} Show that a graph $G$ with $p$ vertexes is a tree if and only if
-its chromatic polynomial $\chi(G,k)$ equals to $k\cdot(k-1)^{p-1}$.
-
 
 \end{document}
 
-%\noindent \sout{1.} \textit{(solved)}
-
 \ 
 
-\noindent {11.} %\textit{(solved)} 
-Let $M$ be a connected planar map and $G$ its dual.
-Show that $M$ and $G$ have the same number of spanning trees.
-
+\noindent %\sout
+{20.} %\textit{(solved)} 
+Show that any planar map has a vertex of degree 3 or a triangular region.
 \ 
 
-\noindent {12.} %\textit{(solved)}
-Let $M$ be a maximal planar map.
-Assume the vertcies of $M$ are colored in 3 colors.
-Show that the number or regions which get all three colors is even.
+\noindent %\sout???
+{13.} %\textit{(solved)}
+Assume a graph $G$ is decomposed into two subgraphs $H_1$ and $H_2$.
+Show that 
+\[\chi (G)\le \chi(H_1)\cdot \chi(H_2).\]
+Given two positive integers $m$ and $n$ construct a graph $G$ with a decomposition into two subgraphs $H_1$ and $H_2$ such that
+\[\chi(H_1)=m, 
+\quad 
+\chi(H_2)=n
+\quad\text{and}\quad 
+\chi(G)=m\cdot n.\]
 
 \ 
-
-
